@@ -1,1 +1,3 @@
 # EchoS
+bestness: safety, 
+worstness:
