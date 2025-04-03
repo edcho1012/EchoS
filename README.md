@@ -1,3 +1,3 @@
 # EchoS
-bestness: safety, 
+bestness: safety, food, air quality, parking
 worstness:
