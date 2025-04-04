@@ -3,6 +3,6 @@
 
 **Description** - Find the safest neighborhood in Pittsburgh.
 
-bestness: safety, food, air quality, parking
+bestness: safety
 
 worstness:
