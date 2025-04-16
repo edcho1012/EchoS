@@ -7,6 +7,7 @@
 This project analyzes neighborhood safety in Pittsburgh using multiple public datasets. It focuses on three main aspects of safety: crime, traffic accidents, and fire incidents. We combined data from City Facilities, Police Arrest Data, Fire Incidents, and City Traffic Signs to build metrics that provide insights into each neighborhood's overall safety.
 
 # **Project Goals**
+
 Evaluate Crime Safety:
 Combine police facility data with arrest records to create a metric called "arrest per police facility." A lower value suggests fewer arrests relative to the number of police stations, which is used as a proxy for safer neighborhoods.
 
@@ -20,6 +21,7 @@ Process the Fire Incidents dataset to count the frequency of fire incidents per 
 Determine common neighborhoods that appear in multiple datasets. By comparing intersections between police and traffic data and between police and fire data, we narrowed down the neighborhoods that consistently show strong safety signals.
 
 **Datasets**
+
 City Facilities.csv:
 Contains information on city facilities in Pittsburgh. This dataset was used to extract police facilities and build a mapping between neighborhoods and police zones.
 
