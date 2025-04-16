@@ -20,7 +20,7 @@ Process the Fire Incidents dataset to count the frequency of fire incidents per 
 **Data Intersection Analysis:**
 Determine common neighborhoods that appear in multiple datasets. By comparing intersections between police and traffic data and between police and fire data, we narrowed down the neighborhoods that consistently show strong safety signals.
 
-**Datasets**
+# **Datasets**
 
 City Facilities.csv:
 Contains information on city facilities in Pittsburgh. This dataset was used to extract police facilities and build a mapping between neighborhoods and police zones.
@@ -34,7 +34,7 @@ Includes records of fire incidents across neighborhoods. We computed the total n
 City Traffic Signs.csv:
 Consists of traffic sign locations across neighborhoods. The data was used to count the number of traffic signs per neighborhood as an indicator of measures in place for traffic safety.
 
-**Data Cleaning and Standardization:**
+# **Data Cleaning and Standardization:**
 
 The datasets were cleaned by converting key fields to strings, trimming extra spaces, and converting text to lowercase.
 
@@ -54,16 +54,16 @@ Neighborhoods from each dataset were compared to identify common areas between p
 
 The common neighborhoods provided a base for further discussion and decision making.
 
-**Visualization:**
+# **Visualization:**
 
 Several bar charts were generated to visualize the metrics. Graphs include the bottom 20 neighborhoods for arrest per police facility ratio, the top 20 neighborhoods for traffic signs, and the bottom 20 neighborhoods for fire incident counts.
 
 Custom labels and annotations were used to clearly display key statistics.
 
-**Findings**
+# **Findings**
 After evaluating and combining the metrics, our analysis indicated that neighborhoods with low arrest per police facility ratios, abundant traffic signs, and fewer fire incidents tend to be the safest. By intersecting the key neighborhoods identified in each individual dataset, we focused on common safety signals. Our final conclusion was that Central Northside stands out as the best and safest neighborhood in Pittsburgh based on our combined metrics.
 
-**Running the Code**
+# **Running the Code**
 The analysis was performed using Python with the following libraries:
 
 pandas
@@ -80,7 +80,7 @@ Ensure the required CSV files are in the same directory as the scripts.
 
 Execute the Python scripts in your preferred environment or run them using a command-line interface.
 
-**Conclusion**
+# **Conclusion**
 This project demonstrates that evaluating neighborhood safety requires a multi-faceted approach. By combining various datasets, we have developed a more comprehensive view of the factors that contribute to a safe living environment in Pittsburgh. The results of our analysis, particularly the insights from the police data, suggest that Central Northside is the safest neighborhood based on our metrics. We hope that this analysis will serve as a valuable tool for residents, policymakers, and future research initiatives.
 
 
